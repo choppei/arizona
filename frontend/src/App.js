@@ -18,7 +18,7 @@ function App() {
           </Navbar>
         </header>
         <main>
-          <Container>
+          <Container className="mt-3">
             <Routes>
               <Route path="/product/:slug" element={<ProductScreen />} />
               <Route path="/" element={<HomeScreen />} />
@@ -26,7 +26,7 @@ function App() {
           </Container>
         </main>
         <footer>
-          <div className='text-center'>©2022 Kucukoglu Software, Tüm hakları saklıdır.</div>
+          <div className='text-center'>©2023 Kucukoglu Software, Tüm hakları saklıdır.</div>
         </footer>
       </div>
     </BrowserRouter>
